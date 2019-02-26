@@ -8,7 +8,7 @@ VggfaceV2
 We adapt the DeepFace except face align. When face align, we used the landmark detected by dlib according to the geometry of the face.
 
 # Train
-cmd: python train.py 
+cmd: python train.py  
 In data set processing, the random combination of two images of the same person is labeled as 1, while the random combination of two images of different people is labeled as 0.The negative class is about twice as large as the positive class
 
 # Test
