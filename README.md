@@ -5,7 +5,8 @@ python3 + pytorch + dlib + python-opencv
 VggfaceV2
 
 # Model
-We adapt the DeepFace except face align. When face align, we used the landmark detected by dlib according to the geometry of the face.
+We adapt the DeepFace except face align. When face align, we used the landmark detected by dlib according to the geometry of the face.  
+The download https in XecpOut\models, and put the model in that dir.  
 
 # Train
 cmd: python train.py  
